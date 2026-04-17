@@ -1,0 +1,17 @@
+select {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+select option {
+    color: black;
+}
+
+select option:hover {
+    background-color: yellow;
+}
+
+select option.seleccionado {
+    background-color: purple;
+    color: white;
+}
